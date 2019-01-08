@@ -516,7 +516,7 @@ void mousePressed(){
       if (mouseButton == LEFT || mouseButton == RIGHT) {
 
          if (mouseX >= x - 28 && mouseX <= x + 28 && mouseY >= y - 28 && mouseY <= y + 28) {
-            if (o > 8){
+            if (o < 8){
               if (f == 80){
                   o += 1;
               } 
@@ -690,7 +690,7 @@ void keyPressed(){
          if (key == 'z' || key == 'Z' || key == 'x' || key == 'X') {
 
             if (mouseX >= x - 28 && mouseX <= x + 28 && mouseY >= y - 28 && mouseY <= y + 28) {
-               if (o > 8){
+               if (o < 8){
                   if (f == 80){
                       o += 1;
                   } 
