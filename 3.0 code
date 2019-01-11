@@ -98,9 +98,9 @@ void draw() {
       textFont(fontMain);
       fill(255);
       textSize(width/8);
-      text("Circles",width/3.6,height/3);
+      text("Circles",width/3.4,height/3);
       textSize(width/30);
-      text("Tip: To insert a audio, ",width/3.2,height/1.2);
+      text("Tip: To insert a audio, ",width/3.1,height/1.2);
       text("Name it: BGM.wav and put it under the data folder.",width/10,height/1.1);
       f = 0;
       a = 0;
@@ -108,20 +108,19 @@ void draw() {
       c = 0;
       d = 0;
       e = 0;
-      i = 0;
       o = 5;
       
       if (z == true){
            textSize(width/18);
            fill(112,230,69);
-           text("No End",width/2.6,height/2.4);
+           text("No End",width/2.5,height/2.4);
       }
       
       if (z == false){
         if (m == true){
            textSize(width/18);
            fill(112,230,69);
-           text("No Fail",width/2.6,height/2.4);
+           text("No Fail",width/2.5,height/2.4);
         }
       }
       noCursor();
@@ -138,7 +137,7 @@ void draw() {
       if (z == false){
         textFont(fontMain);
         textSize(width/12);
-        text("You Failed!",width/3.6,height/3);
+        text("You Failed!",width/3.5,height/3);
         textFont(fontSub);
         textSize(40);
         text(a, 550, 45);
@@ -170,16 +169,18 @@ void draw() {
         fill(255);
         text("Million Master!",width/4.8,height/3);
       
+      
         if (m == true){
            textSize(width/18);
            fill(112,230,69);
-           text("No Fail",width/2.6,height/2.4);
+           text("No Fail",width/2.5,height/2.4);
         }
+      
       
         if (f == 265){
            textSize(width/18);
            fill(112,230,69);
-           text("Full Combo!",width/2.8,height/1.8);
+           text("Full Combo!",width/2.9,height/1.8);
         }
        
         fill(255);
@@ -211,7 +212,7 @@ void draw() {
       rect(width/2.5,height/2.2,110,50);
       fill(255);
       textSize(width/25);
-      text("Title Page",width/2.6,height/2);
+      text("Title Page",width/2.55,height/2);
       textSize(width/8);
 
       
@@ -224,14 +225,14 @@ void draw() {
       if (z == true){
            textSize(width/18);
            fill(112,230,69);
-           text("No End",width/2.6,height/2.4);
+           text("No End",width/2.5,height/2.4);
       }
       
       if (z == false){
         if (m == true){
            textSize(width/18);
            fill(112,230,69);
-           text("No Fail",width/2.6,height/2.4);
+           text("No Fail",width/2.5,height/2.4);
         }
       }
       
@@ -248,7 +249,7 @@ void draw() {
       textSize(width/8);
       
 
-      text("Circles",width/3.6,height/5);
+      text("Circles",width/3.4,height/5);
       textSize(width/30);
       text("Copyright © Tianyu Li",width/3.2,height/3.8);
       text("Welcome to Circles, press [H] to start the game.",width/10,height/3);
@@ -270,12 +271,12 @@ void draw() {
       rect(width/2.5,height/2.2,110,50);
       fill(255);
       textSize(width/25);
-      text("Title Page",width/2.6,height/2);
+      text("Title Page",width/2.55,height/2);
       textSize(width/8);
 
       
 
-      text("Game Over",width/5.4,height/3);
+      text("Game Over",width/5.3,height/3);
       textSize(width/30);
       
       if (z == true){
@@ -499,7 +500,7 @@ void mousePressed(){
 
    if (p == 4 || p == 6){
      
-      if (mouseX <= width/2.5 + 110 && mouseX >= width/2.5 - 20 && mouseY <= height/2.2 + 50 && mouseY >= height/2.2){
+      if (mouseX <= width/2.5 + 110 && mouseX >= width/2.5 - 10 && mouseY <= height/2.2 + 50 && mouseY >= height/2.2){
          p = 0;
          a = 0;
          b = 0;
@@ -516,7 +517,7 @@ void mousePressed(){
       if (mouseButton == LEFT || mouseButton == RIGHT) {
 
          if (mouseX >= x - 28 && mouseX <= x + 28 && mouseY >= y - 28 && mouseY <= y + 28) {
-            if (o < 8){
+            if (o > 8){
               if (f == 80){
                   o += 1;
               } 
@@ -690,7 +691,7 @@ void keyPressed(){
          if (key == 'z' || key == 'Z' || key == 'x' || key == 'X') {
 
             if (mouseX >= x - 28 && mouseX <= x + 28 && mouseY >= y - 28 && mouseY <= y + 28) {
-               if (o < 8){
+               if (o > 8){
                   if (f == 80){
                       o += 1;
                   } 
