@@ -109,6 +109,7 @@ void draw() {
       d = 0;
       e = 0;
       o = 5;
+      i = 0;
       
       if (z == true){
            textSize(width/18);
