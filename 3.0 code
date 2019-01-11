@@ -213,7 +213,7 @@ void draw() {
       rect(width/2.5,height/2.2,110,50);
       fill(255);
       textSize(width/25);
-      text("Title Page",width/2.55,height/2);
+      text("Title Page",width/2.5,height/2);
       textSize(width/8);
 
       
@@ -501,7 +501,7 @@ void mousePressed(){
 
    if (p == 4 || p == 6){
      
-      if (mouseX <= width/2.5 + 110 && mouseX >= width/2.5 - 10 && mouseY <= height/2.2 + 50 && mouseY >= height/2.2){
+      if (mouseX <= width/2.5 + 120 && mouseX >= width/2.5 && mouseY <= height/2.2 + 50 && mouseY >= height/2.2){
          p = 0;
          a = 0;
          b = 0;
