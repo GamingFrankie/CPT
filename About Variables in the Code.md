@@ -1,3 +1,5 @@
+# CPT
+
 Ps: "general" means original mode, hard mode, and their no fail mode.
 
 a = hundred digit of the general scoring system.
