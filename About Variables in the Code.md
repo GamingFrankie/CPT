@@ -1,4 +1,4 @@
-# CPT
+# Variables
 
 Ps: "general" means original mode, hard mode, and their no fail mode.
 
