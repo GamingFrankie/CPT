@@ -1,7 +1,10 @@
 # CPT
+
 Processing Java Code.
 
 Installing Guide:
+
+Click the file that have the word [Circles 3.2.4] on it
 
 Create a folder called [Circles]
 
