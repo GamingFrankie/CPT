@@ -695,27 +695,30 @@ void keyPressed(){
             n = true;
             bgm = new SoundFile(this, "BGM1.wav");;
             println(bgm.channels());
-            bgm.loop();
+            
          }
 
          if (key == '2' && n == false){
             n = true;
             bgm = new SoundFile(this, "BGM2.wav");;
             println(bgm.channels());
-            bgm.loop();
+            
          }
          
          if (key == '3' && n == false){
             n = true;
             bgm = new SoundFile(this, "BGM3.wav");;
             println(bgm.channels());
-            bgm.loop();
+            
          }
 
          if (key == '4' && n == true) {
             n = false;
             bgm.stop();
             println(bgm.channels());
+         }
+         while (n == true){
+            bgm.loop();
          }
 
       }
