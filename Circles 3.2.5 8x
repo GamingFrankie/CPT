@@ -1,3 +1,5 @@
+// This is the version which FFT on the title page = FFT on the BGM Player page.
+
 import processing.sound.*;
 
 PFont fontMain;
