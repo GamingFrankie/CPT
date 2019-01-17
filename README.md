@@ -18,7 +18,9 @@ Put the font file and the audio file into [data] folder.
 
 [CLEAR.wav] is a necessary audio file for the game, please ensure to put it into [data].
 
-Please check and evaluate [Circles 3.2.5 16x] if you are Mr. Gallo
+Please check and evaluate the package[Circles 3.2.5 16x 2] if you are Mr. Gallo, 
+
+but still please change [BGM1.wav], [BGM2.wav], and [BGM3.wav] to a song you choosed
 
 About variables in code, check: 
 
