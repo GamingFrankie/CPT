@@ -1,3 +1,3 @@
-# CPT
+# Circles Dev
 
-Put the font file and the audio file into "data" folder.
+This is a history of the developing process of “Circles.”
