@@ -22,6 +22,8 @@ but still please change [BGM1.wav], [BGM2.wav], and [BGM3.wav] to a song you cho
 
 About variables in code, check [HERE](https://github.com/GamingFrankie/CPT/blob/master/About%20Variables%20in%20the%20Code.md).
 
+
+
 ## The User Guide
 
 Circles
