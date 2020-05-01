@@ -1,6 +1,6 @@
 # Circles
 
-Processing Java Code, MUST INSIRT SOUND LIBRARY
+Processing Java Code, MUST INSIRT **SOUND LIBRARY**
 
 Installing Guide:
 
