@@ -1,4 +1,4 @@
-### Naming
+## Naming
 
 Please replace ever space with a underscore to ensure the proper functionality.
 
