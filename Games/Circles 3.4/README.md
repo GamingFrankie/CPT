@@ -1,10 +1,10 @@
-# Versions
+## Versions
 
 This might be the final version of the game.
 
 I couldn't find the version 3.3, maybe I deleted it.
 
-# What is New?
+## What is New?
 
 This version fixed bugs with all the buttons.
 
