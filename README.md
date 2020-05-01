@@ -20,4 +20,4 @@ Put the font file and the audio file into [data] folder.
 
 but still please change [BGM1.wav], [BGM2.wav], and [BGM3.wav] to a song you choosed
 
-About variables in code, check [Dev](https://github.com/GamingFrankie/CPT/blob/master/About%20Variables%20in%20the%20Code.md).
+About variables in code, check [HERE](https://github.com/GamingFrankie/CPT/blob/master/About%20Variables%20in%20the%20Code.md).
